@@ -15,3 +15,9 @@ git commit -a –m "message du commit" :si vous ne faites que mettre à jour un 
 git checkout SHADuCommit : pour se positionner sur un commit precis (faire un git log pour afficher les commits et le sha)
 
 git checkout master : pour se positionner sur la branche principale 
+
+git revert SHADuCommit : annule le commit specifié c'est dire crée un nouveau commit qui fait l'inverse du précédent, avec la commande suivante.
+
+git commit --amend -m "Votre nouveau message" : modifie simplement le message de votre dernier commit
+
+git reset --hard : Je n'ai pas encore fait mon nouveau commit, mais je veux annuler tous les changements que je n'ai pas encore commités
