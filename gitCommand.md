@@ -1,6 +1,6 @@
-#Commande Git
+# Commande Git
 
-##Commande de base
+## Commande de base
 git init : Pour activer un dossier comme repository Git
 
 git add . : pour ajouter  tous les fichiers dans l’index (git add le nom du fichier)
@@ -25,7 +25,7 @@ git reset --hard : Je n'ai pas encore fait mon nouveau commit, mais je veux annu
 
 git clone https://github.com/facebook/react.git : pour cloner un repository
 
-##create a new repository on the command line
+## create a new repository on the command line
 echo "# Git_demo" >> README.md
 git init
 git add README.md
@@ -33,14 +33,14 @@ git commit -m "first commit"
 git remote add origin https://github.com/ysimp/Git_demo.git
 git push -u origin master
 
-##push an existing repository from the command line
+## push an existing repository from the command line
 git remote add origin https://github.com/ysimp/Git_demo.git
 git push -u origin master
 
-##git Pull pour recupérer les modifs des autres
+## git Pull pour recupérer les modifs des autres
 git pull origin master
 
-##Les branches
+## Les branches
 
 git branch : pour voir la liste des branches
 
@@ -50,11 +50,11 @@ git checkout nouvelle-branche : permet de se positionner sur cette branche
 
 Petite astuce pour manipuler vos branches : vous pouvez utiliser la commande 'git checkout -b' pour créer une branche et vous y positionner. Ainsi, au lieu de taper la commande suivante pour créer votre branche :
 
-*git branch ma-branche*
+* git branch ma-branche
 
 puis une deuxième commande pour vous y positionner :
 
-*git checkout ma-branche*
+* git checkout ma-branche
  vous pouvez regrouper ces deux opérations en une seule commande : 
 
-*git checkout -b ma-branche*
+* git checkout -b ma-branche
