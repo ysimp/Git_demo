@@ -22,4 +22,17 @@ git commit --amend -m "Votre nouveau message" : modifie simplement le message de
 
 git reset --hard : Je n'ai pas encore fait mon nouveau commit, mais je veux annuler tous les changements que je n'ai pas encore commités
 
-git clone https://github.com/facebook/react.git
+git clone https://github.com/facebook/react.git : pour cloner un repository
+
+create a new repository on the command line
+echo "# Git_demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ysimp/Git_demo.git
+git push -u origin master
+
+push an existing repository from the command line
+git remote add origin https://github.com/ysimp/Git_demo.git
+git push -u origin master
+                
