@@ -76,3 +76,23 @@ Se placer sur master
 ensuite merger avec la branche mon-test
 * git merge mon-test
 recpercution du contenu de mon-test sur master 
+
+## Retrouvez qui a fait une modification
+
+### Git Blame
+Cette commande liste toutes les modifications qui ont été faites sur le fichier ligne par ligne. À chaque modification est associé le début du sha du commit correspondant
+
+exemple :
+	416f0e43 (yaya5 2020-04-30 17:21:45 +0200  1) # Commande Git
+
+	* git blame nomdufichier.extension
+
+### Pour retrouver pourquoi cette modification a été faite, vous avez deux possibilités : 
+
+Faire un git log et rechercher le commit dont le sha commence par 416f0e43. 
+
+Utiliser la commande git show qui vous renvoie directement les détails du commit recherché en saisissant le début de son sha : 
+
+* git show 416f0e43
+les lignes colorées en rouge avec un "-" au debut signifie qu'elles ont été supprimées
+et celles en vertes, signifie qu'elles ont été ajoutées
