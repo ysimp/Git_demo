@@ -21,3 +21,5 @@ git revert SHADuCommit : annule le commit specifié c'est dire crée un nouveau 
 git commit --amend -m "Votre nouveau message" : modifie simplement le message de votre dernier commit
 
 git reset --hard : Je n'ai pas encore fait mon nouveau commit, mais je veux annuler tous les changements que je n'ai pas encore commités
+
+git clone https://github.com/facebook/react.git
