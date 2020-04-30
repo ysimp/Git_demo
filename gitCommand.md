@@ -15,5 +15,3 @@ git commit -a –m "message du commit" :si vous ne faites que mettre à jour un 
 git checkout SHADuCommit : pour se positionner sur un commit precis (faire un git log pour afficher les commits et le sha)
 
 git checkout master : pour se positionner sur la branche principale 
-
-git revert :
