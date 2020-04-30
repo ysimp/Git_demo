@@ -97,3 +97,6 @@ Utiliser la commande git show qui vous renvoie directement les détails du commi
 
 les lignes colorées en rouge avec un "-" au debut signifie qu'elles ont été supprimées
 et celles en vertes, signifie qu'elles ont été ajoutées
+
+## Git ignore
+Créez le fichier .gitignore pour y mettre les fichiers qui ne seront pas committer dans Git
