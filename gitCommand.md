@@ -100,3 +100,15 @@ et celles en vertes, signifie qu'elles ont été ajoutées
 
 ## Git ignore
 Créez le fichier .gitignore pour y mettre les fichiers qui ne seront pas committer dans Git
+
+## Git Stash : pour éviter les commits inutiles 
+
+Mettre ces modifications de coté en utilisant 
+* git stash
+
+cette ignore les modifs qu'on était entrain d'effectuer sur la branche où on est situé, en les mettant dans stash.
+ensuite terminer ce qu'on a à faire puis on revient dans la branche où on était et on tape :
+
+* * git stash pop
+
+qui repercute les modifs sur la branche.
